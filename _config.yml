@@ -4,7 +4,7 @@
 
 # Site
 title: Shawn | 个人小站
-subtitle:
+subtitle: 北方に魚がいます,その名は塩です。
 description:
 keywords:
 author: Shawn Jim
@@ -72,8 +72,28 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+- hexo-generator-baidu-sitemap
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+search:
+  path: search.json
+  field: post
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: black-blue
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
