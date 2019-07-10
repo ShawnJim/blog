@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -98,7 +98,11 @@ theme: black-blue
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: https://github.com/ShawnJim/Hexo.git
+- type: git
+  repository: https://github.com/ShawnJim/Hexo.git 
+  branch: master
+  message: update
+- type: git
+  repository: https://git.dev.tencent.com/shawn_Jim/Shawn.git
   branch: master
   message: update
