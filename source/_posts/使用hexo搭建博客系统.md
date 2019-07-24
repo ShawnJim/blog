@@ -7,13 +7,12 @@ categories:
 tags: 
 - 博客
 ---
-  之前都是在CSDN撰写博客，近段时间看见一篇博客讲述说hexo + gitpages 可以免费搭建一个属于个人的博客，琢磨琢磨就开始搭建了，下面就记录下搭建过程。
+>之前都是在CSDN撰写博客，近段时间看见一篇博客讲述说hexo + gitpages 可以免费搭建一个属于个人的博客，琢磨琢磨就开始搭建了，下面就记录下搭建过程。
 <!-- more -->
 
 ## 环境介绍
 ### hexo
-[Hexo](https://hexo.io/zh-cn/docs/)  
-Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  
+[Hexo](https://hexo.io/zh-cn/docs/) 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  
   
 
 ### gitpages
@@ -22,8 +21,7 @@ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（�
     
 
 ### Clound Studio
-[CloudStudio](https://dev.tencent.com/help/doc/cloud-studio)  
-Cloud Studio 是基于浏览器的集成式开发环境（IDE），为开发者提供了一个永不间断的云端工作站。Cloud Studio 还具有一些特色功能，如一键环境切换、多人协同编辑、在线预览等等，可以帮助开发者完成各种应用的开发、编译与部署工作。   
+[CloudStudio](https://dev.tencent.com/help/doc/cloud-studio) 是基于浏览器的集成式开发环境（IDE），为开发者提供了一个永不间断的云端工作站。Cloud Studio 还具有一些特色功能，如一键环境切换、多人协同编辑、在线预览等等，可以帮助开发者完成各种应用的开发、编译与部署工作。   
 说人话就是一个云端的可供多人在线协作开发的一个IDE工具，用起来非常方便。  
 
 ## 搭建流程
