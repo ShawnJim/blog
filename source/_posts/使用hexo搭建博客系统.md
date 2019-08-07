@@ -41,8 +41,8 @@ tags:
 ```
 hexo init <folder>
 ```
-其中<folder>就是你想要创建的文件夹。  
-ps: <folder> 为空的话取当前的文件夹,前提是当前文件夹为空，否则会报错。
+其中`<folder>`就是你想要创建的文件夹。  
+ps:`<folder>`为空的话取当前的文件夹,前提是当前文件夹为空，否则会报错。
 ![](https://dn-coding-net-production-pp.codehub.cn/eeff1c31-1770-4045-9f3e-7924d361dade.jpg ) 
 执行完成后接着敲
 ```

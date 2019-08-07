@@ -5,6 +5,8 @@ categories: SpringBoot
 tags:
   - java
   - Spring
+  - slf4j
+  - log
 ---
 >Spring Boot使用[Commons Logging](https://commons.apache.org/logging)进行所有内部日志记录，但保留底层日志实现。为[Java Util Logging](https://docs.oracle.com/javase/8/docs/api//java/util/logging/package-summary.html)，[Log4J2](https://logging.apache.org/log4j/2.x/)和 [Logback](https://logback.qos.ch/)提供了默认配置 。在每种情况下，记录器都预先配置为使用控制台输出，同时还提供可选的文件输出。  
 <!-- more -->
@@ -309,11 +311,9 @@ slf4j+log4j的方式；
 
 ## 相关资料
 
-SpringBoot官方文档：
 
-​	[https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-logging.html](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-logging.html)
+​[SpringBoot官方文档](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-logging.html)
 
-本文相关项目：
 
-​	[https://github.com/ShawnJim/spring-boot-learning/tree/master/chapter3-logging](https://github.com/ShawnJim/spring-boot-learning/tree/master/chapter3-logging)
+​[本文相关项目](https://github.com/ShawnJim/spring-boot-learning/tree/master/chapter3-logging)
 
