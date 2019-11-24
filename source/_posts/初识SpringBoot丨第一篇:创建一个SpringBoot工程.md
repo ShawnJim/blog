@@ -68,7 +68,7 @@ tags:
 
 
 
-> ### 填写项目基本信息
+### 填写项目基本信息
 
 - **Group：** 组织ID，一般分为多个段，这里我只说两段，第一段为域，第二段为公司名称。域又分为 `org、com、cn`等等，其中 **org为非营利组织，com为商业组织**。如阿里、淘宝（com.alibaba/com.taobao）
 
@@ -76,7 +76,7 @@ tags:
 
 {% asset_img spring_boot_第一篇-1.jpg 项目结构 第二步 %}
 
-> ### 选择需要的包
+### 选择需要的包
 
 ![第三步](https://image.battcn.com/article/images/20180420/springboot/v2-Introducing/4.png))
 
@@ -90,7 +90,7 @@ tags:
 
 {% asset_img spring_boot_第一篇-2.jpg 项目结构 %}
 
-> ### pom 文件 
+### pom 文件 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -144,7 +144,7 @@ tags:
 </project>
 ```
 
-> ### 主程序类
+### 主程序类
 
 @**SpringBootApplication**:    Spring Boot应用标注在某个类上说明这个类是SpringBoot的主配置类，SpringBoot就应该运行这个类的main方法来启动SpringBoot应用；
 
@@ -178,7 +178,7 @@ public class Chapter1Application {
 }
 ```
 
-> ### 依赖注解
+### 依赖注解
 
 {% asset_img spring_boot_第一篇-3.jpg 项目结构 第二步 SpringBootApplication 注解依赖 %}
 
@@ -230,18 +230,7 @@ public @interface EnableAutoConfiguration {
 
 J2EE的整体整合解决方案和自动配置都在spring-boot-autoconfigure-1.5.9.RELEASE.jar；
 
-## 使用Spring Initializer快速创建Spring Boot项目
+## 相关资料
 
-### IDEA：使用 Spring Initializer快速创建项目
 
-IDE都支持使用Spring的项目创建向导快速创建一个Spring Boot项目；
-
-选择我们需要的模块；向导会联网创建Spring Boot项目；
-
-默认生成的Spring Boot项目；
-
-- 主程序已经生成好了，我们只需要我们自己的逻辑
-- resources文件夹中目录结构
-  - static：保存所有的静态资源； js css  images；
-  - templates：保存所有的模板页面；（Spring Boot默认jar包使用嵌入式的Tomcat，默认不支持JSP页面）；可以使用模板引擎（freemarker、thymeleaf）；
-  - application.properties：Spring Boot应用的配置文件；可以修改一些默认设置
+[本文相关项目](https://github.com/ShawnJim/spring-boot-learning/tree/master/chapter1)
