@@ -115,9 +115,9 @@ deploy:
   repository: https://github.com/ShawnJim/Hexo.git 
   branch: master
   message: update
-- type: git
-  repository: https://git.dev.tencent.com/shawn_Jim/Shawn.git
-  branch: master
-  message: update
 - type: baidu_url_submitter
+# - type: git
+#   repository: https://git.dev.tencent.com/shawn_Jim/Shawn.git
+#   branch: master
+#   message: update
 
