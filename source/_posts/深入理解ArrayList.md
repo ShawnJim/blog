@@ -2,7 +2,11 @@
 title: 深入理解ArrayList
 date: 2020-04-06 18:08:45
 categories:
+  - 数据结构
 tags:
+  - 源码
+  - java
+  - ArrayList
 ---
 
 ## 底层实现
